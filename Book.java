@@ -25,9 +25,10 @@ public class Book {
         String book1Author = keyboard.nextLine();
         System.out.println("When was the first book written?");
         int book1Year = keyboard.nextInt();
+        keyboard.nextLine();
 
         Book book1 = new Book(book1Name, book1Author, book1Year);
-
+        
         System.out.println("What is the name of the second book?");
         String book2Name = keyboard.nextLine();
         System.out.println("Who is the author of the second book?");
