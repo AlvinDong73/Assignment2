@@ -10,6 +10,6 @@ public class Book {
     }
 
     public void display() {
-        System.out.printf("%s was written by %s in %d\n", this.name, this.author, this.year);
+        System.out.printf("%s was written by %s in the year %d\n", this.name, this.author, this.year);
     }
 }
