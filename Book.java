@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Book {
     private String name;
     private String author;
@@ -14,6 +16,7 @@ public class Book {
     }
 
     public static void main(String[] args) {
+        Scanner keyboard = new Scanner(System.in);
         Book book1 = new Book("test", "me", 2000);
         book1.display();
     }
